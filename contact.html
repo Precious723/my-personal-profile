@@ -3,6 +3,7 @@
 
 <head>
     <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- EmailJS -->
     <script type="text/javascript"
@@ -23,40 +24,41 @@
     <h1>Contact Me</h1>
 
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About Me</a> |
-        <a href="hobbies.html">Hobbies</a> |
-        <a href="favorites.html">Favorites</a> |
-        <a href="goals.html">Goals</a> |
-        <a href="contact.html">Contact Me</a>
-    </nav>
-
+    <a class="nav-link" href="index.html">Home</a> |
+    <a class="nav-link" href="about.html">About Me</a> |
+    <a class="nav-link" href="hobbies.html">Hobbies</a> |
+    <a class="nav-link" href="favorites.html">Favorites</a> |
+    <a class="nav-link" href="goals.html">Goals</a> |
+    <a class="nav-link" href="contact.html">Contact Me</a>
+</nav>
     <hr>
+
+    <section id="contact-section">
 
     <h2>Send Me a Message</h2>
 
     <form id="contact-form">
 
-        <label>Full Name:</label><br>
-        <input type="text" name="fullname" required>
+        <label class="form-label">Full Name:</label>
+        <input class="form-input" type="text" name="fullname" required>
         <br><br>
 
-        <label>Email Address:</label><br>
-        <input type="email" name="email" required>
+        <label class="form-label">Email Address:</label>
+        <input class="form-input" type="email" name="email" required>
         <br><br>
 
-        <label>Gender:</label><br>
+        <label class="form-label">Gender:</label>
         <input type="radio" name="gender" value="Male"> Male
         <input type="radio" name="gender" value="Female"> Female
         <br><br>
 
-        <label>Interests:</label><br>
+       <label class="form-label">Interests:</label>
         <input type="checkbox" name="interests" value="Technology"> Technology
         <input type="checkbox" name="interests" value="Gaming"> Gaming
         <input type="checkbox" name="interests" value="Music"> Music
         <br><br>
 
-        <label>Purpose of Visit:</label><br>
+        <label class="form-label">Purpose of Visit:</label>
         <select name="purpose">
             <option>General Inquiry</option>
             <option>Feedback</option>
@@ -65,12 +67,16 @@
         </select>
         <br><br>
 
-        <label>Message:</label><br>
-        <textarea name="message" rows="5" cols="40" required></textarea>
+        <label class="form-label">Message:</label>
+        <textarea class="form-input" name="message" rows="5" cols="40" required></textarea>
         <br><br>
 
-        <input type="submit" value="Send Message">
-        <input type="reset" value="Clear Form">
+            <input class="btn primary" type="submit" value="Send Message">
+    <input class="btn" type="reset" value="Clear Form">
+
+    </form>
+
+</section>
 
     </form>
 

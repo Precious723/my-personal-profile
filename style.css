@@ -1,0 +1,55 @@
+body {
+    color: black;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    color: black;
+}
+
+.nav-link {
+    color: blue;
+    font-weight: bold;
+}
+
+.profile-info {
+    color: darkgreen;
+}
+
+.section-title {
+    font-weight: bold;
+    background-color: white;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input {
+    color: blue;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.primary {
+    color: green;
+}
+
+#main-header {
+    text-align: center;
+    background-color: white;
+}
+
+#contact-section {
+    background-color: white;
+}

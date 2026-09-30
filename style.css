@@ -194,3 +194,140 @@ td {
 video {
     opacity: 0.95;
 }
+
+/* ============================= */
+/* CSS BOX MODEL                 */
+/* ============================= */
+
+body {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+h1 {
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid darkblue;
+}
+
+h2 {
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid darkgreen;
+}
+
+.profile-info {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+/* ============================= */
+/* CSS LIST PROPERTIES           */
+/* ============================= */
+
+ul {
+    list-style-type: square;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+
+li {
+    margin: 8px 0;
+    padding: 5px;
+}
+
+/* ============================= */
+/* CSS LINK PROPERTIES           */
+/* ============================= */
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}
+
+/* ============================= */
+/* POSITION PROPERTIES           */
+/* ============================= */
+
+#main-header {
+    position: relative;
+    top: 5px;
+}
+
+/* ============================= */
+/* FLOAT AND CLEAR               */
+/* ============================= */
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ============================= */
+/* Z-INDEX                       */
+/* ============================= */
+
+#main-header {
+    position: relative;
+    z-index: 10;
+}
+
+/* ============================= */
+/* CONTACT FORM BOX MODEL        */
+/* ============================= */
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid darkblue;
+}
+
+.form-label {
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.form-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid darkblue;
+}

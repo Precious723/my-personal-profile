@@ -1,45 +1,90 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- MAIN HEADER -->
     <h1 id="main-header">Precious J. Gimarino</h1>
 
+    <!-- NAVIGATION -->
     <nav>
-    <a class="nav-link" href="index.html">Home</a> |
-    <a class="nav-link" href="about.html">About Me</a> |
-    <a class="nav-link" href="hobbies.html">Hobbies</a> |
-    <a class="nav-link" href="favorites.html">Favorites</a> |
-    <a class="nav-link" href="goals.html">Goals</a> |
-    <a class="nav-link" href="contact.html">Contact Me</a>
-</nav>
+        <a class="nav-link" href="index.html">Home</a> |
+        <a class="nav-link" href="about.html">About Me</a> |
+        <a class="nav-link" href="hobbies.html">Hobbies</a> |
+        <a class="nav-link" href="favorites.html">Favorites</a> |
+        <a class="nav-link" href="goals.html">Goals</a> |
+        <a class="nav-link" href="contact.html">Contact Me</a>
+    </nav>
 
     <hr>
 
-    <img src="profile.jpg" width="200">
+    <!-- PROFILE PICTURE -->
+    <img src="profile.jpg" width="200" alt="My profile picture">
 
-<div class="clear"></div>
+    <div class="clear"></div>
 
-<h2>Welcome to My Personal Profile</h2>
-
+    <!-- INTRODUCTION -->
     <h2 class="section-title">Welcome to My Personal Profile</h2>
 
-    <p class="profile-info">Hello! My name is Precious Gimarino.</p>
+    <p class="profile-info">
+        Hello! My name is Precious Gimarino.
+    </p>
 
-    <p class="profile-info">I am a student.</p>
+    <p class="profile-info">
+        I am a student. I enjoy learning new things, especially about computers and technology.
+    </p>
 
+    <!-- IMAGE GALLERY -->
+    <h2 class="section-title">My Image Gallery</h2>
+
+    <p>
+        Welcome to my image gallery! Here are some pictures that represent me and my interests.
+    </p>
+
+    <div class="image-gallery">
+
+        <div class="gallery-item">
+            <img src="profile.jpg" alt="My profile picture">
+            <p>My Profile</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="hobby1.jpg" alt="A picture representing my hobbies">
+            <p>My Hobbies</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="hobby2.jpg" alt="A picture representing my interests">
+            <p>My Interests</p>
+        </div>
+
+    </div>
+
+    <!-- LOCATION -->
     <h2 class="section-title">My Location</h2>
 
     <p>
         This map shows my chosen location.
     </p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15703.096600399174!2d123.96385245!3d10.279773049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1789794190430!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15703.096600399174!2d123.96385245!3d10.279773049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1789794190430!5m2!1sen!2sph"
+        width="600"
+        height="450"
+        style="border:0; max-width:100%;"
+        allowfullscreen
+        loading="lazy"
+        title="My chosen location on Google Maps"
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
 
 </body>
 
